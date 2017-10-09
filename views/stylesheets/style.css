@@ -1,0 +1,12 @@
+div#create.optionsCircle{
+    background-image:url("");
+}
+
+div#join.optionsCircle{
+    background-image:url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjfoK_nyOTWAhWIwVQKHXXrCtsQjRwIBw&url=https%3A%2F%2Fopenclipart.org%2Fdetail%2F190063%2F2-ball&psig=AOvVaw1T4SjbxJIm3bCpX-GKt9Yk&ust=1507673815122534");
+
+}
+
+body{
+    background-color: green;
+}
