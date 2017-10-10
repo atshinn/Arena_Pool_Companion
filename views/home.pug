@@ -1,25 +1,20 @@
-
-mixin option_circle(text,url)
-    a(style="display:block",href=url)
-        .optionsCircle
-            p.optionsText=text
-
-doctype html
 html
-    link(rel="stylesheet", href="stylesheets/style.css",type="text/css")
-    head
+    header
+        link(rel="stylesheet", text="text/css", href="http://localhost:8000/styles/style.css")
         title Arena Pool Companion
         
-    body.body
-        center
-            div.options 
-                h3.optionsHeader Options
-                a(href="http://localhost:8000/Create")
-                    img#create.optionImg(src="assets/2ball.png")
-                    p.optionsText Create
-                a(href="http://localhost:8000/Join")
-                    img#join.optionImg(src="assets/8ball.png")
-                    p.optionsText Join
-                a(href="http://localhost:8000/Standings")
-                    img#create.optionImg(src="assets/9ball.png")
-                    p.optionsText Standings
+    body
+        div(id="optionsContainer") 
+            h3(class="optionsHeader") Options
+                
+            a(class="optionsLink",href="http://localhost:8000/Create")
+                img(class="optionsImg",id="create",src="http://localhost:8000/images/2ball.png",alt="Img N/A")
+            strong(class="optionsTxt") Create
+            
+            a(class="optionsLink",href="http://localhost:8000/Join")
+                img(class="optionsImg",id="join",src="http://localhost:8000/images/8ball.png",alt="Img N/A")
+            strong(class="optionsTxt") Join
+            
+            a(class="optionsLink",href="http://localhost:8000/Standings")
+                img(class="optionsImg",id="standings",src="http://localhost:8000/images/9ball.png",alt="Img N/A")
+            strong(class="optionsTxt") Standings

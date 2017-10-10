@@ -1,0 +1,24 @@
+
+#optionsContainer {
+    border: 25px solid black;
+    width:100%;
+    padding:25px;
+    margin:50px;
+    position:fixed;
+    top:50%;
+    left:50%;
+
+}
+
+.optionsImg {
+    width:300px;
+    height:300px;
+    padding:25px;
+    margin:50px;
+    float:left;
+    
+}
+body {
+    align-content:center;
+
+}
